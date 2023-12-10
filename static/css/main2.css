@@ -1,0 +1,394 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton';
+
+}
+
+
+
+
+#logo {
+    padding-left: 0%;
+    
+}
+#logo img {
+    padding-left: 85%;
+    width: 65%;
+
+}
+
+#banner-text p {
+    font-size: 13px;
+    font-family: 'Anton';
+    font-weight: bold;
+    margin-top: -20%;
+
+}
+
+#title {
+    font-size: 20px;
+    color: #050404;
+    padding-right: 50%;
+    padding-left: 3%;
+    margin-top: -0.9%;
+}
+
+#left-section {
+    display: flex;
+    flex: 1;
+    background-color: #FFCB05;
+   
+}
+
+#left-nav-bar {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+}
+
+#left-nav-bar a {
+    text-decoration: none;
+    color: #0a0514;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+#left-nav-bar a.active {
+    background-color: #f44336;
+
+}
+#left-section #has-dropdown:hover #sub-nav {
+    display: block;
+}
+
+#show-video {
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.dropdown-content {
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    list-style: none;
+    padding: 0;
+    padding-left: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+   
+}
+.top-nav a:hover {
+    background-color: #FFCB05;
+    
+}
+
+.navbar202 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #FFCB05;
+    border-radius: 5px;
+    padding: 5px
+    
+}
+
+
+.navbar {
+    /* background-color: #FFCB05; */
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: x-large;
+    transition: background-color 0.3s ease;
+    border-radius: 2px;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    
+}
+
+.navbar:hover {
+    background-color: #b9297b;
+}
+
+/* Style for list items in the dropdown menu */
+.dropdown-content li {
+    margin-bottom: 5px;
+    
+    
+}
+
+/* Change the background color of list items on hover */
+/* .dropdown-content a{
+    display: block;
+} */
+
+#myDropdown a.active {
+    background-color: #f44336;
+}
+#myDropdown1 {
+    text-align: center;
+    margin-top: 30px;
+}
+#myDropdown1 li{
+
+    margin-top: 50px;
+}
+
+#myDropdown1 a.active {
+   
+    background-color: #76738a;
+    border-radius: 10px;
+    padding: 5px;
+    
+
+   
+ 
+    
+
+    /* transition: background-color 0.3s ease; */
+
+}
+#myDropdown2 a.active {
+    background-color: #14c125;
+}
+
+
+
+/* Style for the playback speed buttons */
+.speed-button {
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.speed-button button:first-child {
+    margin-left: 20px; /* Adjust the desired padding value */
+}
+ /* Style for the time display bar */
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.speed-buttons {
+    display: flex;
+    padding-left: 20px;
+}
+
+.time-bar {
+    width: 50%;
+    height: 5px;
+    background-color: #ccc;
+    position: relative;
+    margin-top: 5px;
+}
+.time-bar2 {
+    width: 50%;
+    height: 5px;
+    background-color: #ccc;
+    position: relative;
+    margin-top: 5px;
+}
+
+#main-content4 {
+    flex: 8;
+    background-color: #00274C	;
+    /* background-image: url('/static/webimage/Meeting-Critical.jpg'); */
+}
+
+#video1 {
+    width: 720px;
+    height: 480px;
+}
+#video2 {
+    width: 720px;
+    height: 480px;
+}
+#video3 {
+    width: 720px;
+    height: 480px;
+}
+#video4 {
+    width: 720px;
+    height: 480px;
+}
+#video5 {
+    width: 720px;
+    height: 480px;
+}
+#main-content4 h2{
+    font-size: 1.em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #FFCB05;
+    font-family: cursive;
+}
+
+
+
+
+
+
+@media  screen and (max-width: 1200px) {
+    .main-logo img {
+        width: fit-content;
+        padding-left: 4%;
+        margin-top: -50%;
+    }
+    .logo-text {
+        width: 40%; /* Width of the logo */
+        color: #8c8b8b; /* Change to your desired color */
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -10.5%;
+        padding-left: 9%;
+
+    }
+    .text-section h1 {
+        text-align: left;
+        padding-left: 3.0in;
+        font-size: 36px;
+        color: #3bbab5;
+    }
+    .text-section p {
+        text-align: left;
+        padding-left: 3in;
+        font-size: 14px;
+        font-family: 'open sans','sans-serif';
+        margin-right: 15%;    
+    }
+    .text-section2 {
+        background: rgba(164, 159, 159, 0.8);
+        margin-top: -10%;
+        padding: px;
+        margin: 10px;  
+    }
+    
+    .text-section2 p {
+        text-align: left;
+        padding-left: 3in;
+        font-family: 'open sans','sans-serif';
+        margin-top: 6%;
+        font-size: 36px;
+        color: #8c8b8b;
+        padding-top: 4%;
+    
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        grid-template-rows: repeat(3, 1fr);    /* 3 rows */
+        
+        margin: 0 2.5in; /* Center the container horizontally */
+    }
+    
+    .grid-item {
+        text-align: left;
+        border: px solid #ccc; /* Add a border for separation (optional) */
+        word-wrap: break-word; /* Text wrap for long content */
+        grid-gap: 15px; /* Adjust the spacing between cells */
+        width: 200px; /* Adjust the container width as needed */
+        padding-top: 18%;
+        font-size: 14px;
+        font-family: 'open sans','sans-serif';
+      
+    }
+    .grid-item1 {
+        padding: 10px;
+        text-align: left;
+        border: 0px solid #ccc; /* Add a border for separation (optional) */
+        word-wrap: break-word; /* Text wrap for long content */
+        grid-gap: 15px; /* Adjust the spacing between cells */
+        width: 400px; /* Adjust the container width as needed */
+        font-size: 14px;
+        font-family: 'open sans','sans-serif';
+    }
+    .contact-info {
+        display: inline-block;
+        margin: 0 0px;
+        padding-left: 20%;
+    }
+    #video1 {
+        width: 400px;
+        height: 480px;
+    }
+    #video2 {
+        width: 400px;
+        height: 480px;
+    }
+    #video3 {
+        width: 400px;
+        height: 480px;
+    }
+    #video4 {
+        width: 400px;
+        height: 480px;
+    }
+
+    #left-nav-bar a {
+
+        margin: 5px 15px;
+        margin-top: 50px;
+    }
+    .yellow-banner {
+        height: 0.9in;
+        /* height: 0.7in; */
+    }
+    .logo img {
+        padding-left: 40%;
+    
+    
+    }
+    #top-nav {
+        padding-left: 1%;
+    }
+
+    
+}
+@media screen and (min-width: 1200px) and (max-width: 1800px) {
+    #video1 {
+        width: 550px;
+        height: 480px;
+    }
+    #video2 {
+        width: 550px;
+        height: 480px;
+    }
+    #video3 {
+        width: 550px;
+        height: 480px;
+    }
+    #video4 {
+        width: 550px;
+        height: 480px;
+    }
+    
+
+}
+
+@media  screen and (min-width: 2000px) {
+    #video1 {
+        width: 1080px;
+        height: 720px;
+    }
+    #video2 {
+        width: 1080px;
+        height: 720px;
+    }
+    #video3 {
+        width: 1080px;
+        height: 720px;
+    }
+    #video4 {
+        width: 1080px;
+        height: 720px;
+    }
+    
+
+}
+
