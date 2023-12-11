@@ -66,5 +66,5 @@ def sq_bmp1():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=5000, debug=True)
     # app.run(host='10.0.0.57', port=8900, debug=True)
