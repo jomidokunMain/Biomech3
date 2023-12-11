@@ -32,3 +32,4 @@ typing_extensions==4.8.0
 Werkzeug==2.3.7
 wincertstore==0.2
 zipp==3.17.0
+uvicorn
